@@ -1,58 +1,58 @@
 class NameGenerator
   NOUNS = {
     serious: [
-      "Threat",
-      "Thunder",
-      "Mach",
-      "Strike",
-      "Defender",
-      "Defense",
-      "Metal",
-      "Eagle",
-      "Attack",
-      "Vigil",
-      "Penetration",
-      "Network",
-      "Perimeter",
-      "Security",
-      "Falcon",
-      "Panzer",
-      "Ninja",
-      "Fortress",
-      "Sword",
       "Armor",
+      "Attack",
+      "Core",
       "Crypt",
       "Crypto",
-      "Core",
-      "Talon",
-      "Knife",
+      "Defender",
+      "Defense",
+      "Eagle",
+      "Falcon",
+      "Fortress",
       "Hawk",
-      "Raptor"
+      "Knife",
+      "Mach",
+      "Metal",
+      "Network",
+      "Ninja",
+      "Panzer",
+      "Penetration",
+      "Perimeter",
+      "Raptor",
+      "Security",
+      "Strike",
+      "Sword",
+      "Talon",
+      "Threat",
+      "Thunder",
+      "Vigil",
     ],
 
     joke: [
-      "Voltron",
+      "Corpse",
       "Molester",
-      "Corpse"
+      "Voltron",
     ]
   }
 
   ADJECTIVES = {
     serious: [
+      "Active",
+      "Black",
+      "Cobalt",
       "Cyber",
       "Cyborg",
-      "Cobalt",
-      "Red",
-      "Black",
       "Gray",
+      "Red",
       "Steel",
       "Vigilant",
-      "Active",
     ],
 
     joke: [
+      "Gorey",
       "Slammin",
-      "Gorey"
     ]
   }
 
