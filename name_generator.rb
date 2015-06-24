@@ -3,22 +3,30 @@ class NameGenerator
     serious: %w{
       Armor
       Attack
+      Badger
       Breach
       Bushido
+      Control  
       Core
       Crypt
       Crypto
       Defender
       Defense
       Eagle
+      Eye
       Falcon
+      Fire
+      Fist
       Fortress
+      Hammer
       Hawk
       Katana
       Knife
       Lance
+      Lightning
       Mach
       Metal
+      Mind
       Network
       Ninja
       Panzer
@@ -29,6 +37,7 @@ class NameGenerator
       Security
       Shuriken
       Strike
+      Swarm
       Sword
       Talon
       Threat
@@ -39,8 +48,12 @@ class NameGenerator
     },
 
     joke: %w{
+      Autobot
       Corpse
+      Decepticon
+      Discharge
       Molester
+      Sleipnir
       Voltron
     }
   }
@@ -63,7 +76,9 @@ class NameGenerator
     },
 
     joke: %w{
+      Capricious
       Gorey
+      Mercurial
       Slammin
     }
   }
@@ -82,7 +97,10 @@ class NameGenerator
       Ops
     },
 
-    #joke: %w{
-    #}
+    joke: %w{
+      Junior
+      Senior
+      IV
+    }
   }
 end
