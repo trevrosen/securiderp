@@ -1,76 +1,88 @@
 class NameGenerator
   NOUNS = {
-    serious: [
-      "Armor",
-      "Attack",
-      "Core",
-      "Crypt",
-      "Crypto",
-      "Defender",
-      "Defense",
-      "Eagle",
-      "Falcon",
-      "Fortress",
-      "Hawk",
-      "Knife",
-      "Mach",
-      "Metal",
-      "Network",
-      "Ninja",
-      "Panzer",
-      "Penetration",
-      "Perimeter",
-      "Raptor",
-      "Security",
-      "Strike",
-      "Sword",
-      "Talon",
-      "Threat",
-      "Thunder",
-      "Vigil",
-    ],
+    serious: %w{
+      Armor
+      Attack
+      Breach
+      Bushido
+      Core
+      Crypt
+      Crypto
+      Defender
+      Defense
+      Eagle
+      Falcon
+      Fortress
+      Hawk
+      Katana
+      Knife
+      Lance
+      Mach
+      Metal
+      Network
+      Ninja
+      Panzer
+      Penetration
+      Perimeter
+      Raptor
+      Samurai
+      Security
+      Shuriken
+      Strike
+      Sword
+      Talon
+      Threat
+      Thunder
+      Vaccine
+      Vigil
+      Wakizashi
+    },
 
-    joke: [
-      "Corpse",
-      "Molester",
-      "Voltron",
-    ]
+    joke: %w{
+      Corpse
+      Molester
+      Voltron
+    }
   }
 
   ADJECTIVES = {
-    serious: [
-      "Active",
-      "Black",
-      "Cobalt",
-      "Cyber",
-      "Cyborg",
-      "Gray",
-      "Red",
-      "Steel",
-      "Vigilant",
-    ],
+    serious: %w{
+      Active
+      Advanced
+      Black
+      Cobalt
+      Cyber
+      Cyborg
+      Elite
+      Gray
+      Immune
+      Persistent
+      Red
+      Steel
+      Vigilant
+    },
 
-    joke: [
-      "Gorey",
-      "Slammin",
-    ]
+    joke: %w{
+      Gorey
+      Slammin
+    }
   }
 
 
   #PREFIXES = {
-    #serious: [
-    #],
+    #serious: %w{
+    #},
 
-    #joke: [
-    #]
+    #joke: %w{
+    #}
   #}
 
   SUFFIXES = {
-    serious: [
-      "Ops"
-    ],
+    serious: %w{
+      Ops
+    },
 
-    #joke: [
-    #]
+    #joke: %w{
+    #}
   }
 end
