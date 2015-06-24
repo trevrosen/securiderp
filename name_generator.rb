@@ -103,4 +103,22 @@ class NameGenerator
       IV
     }
   }
+  
+  ENTITY_FORM = {
+    serious: %w{
+      AB
+      AG
+      Corp.
+      Co.
+      Foundation
+      GmbH
+      Inc.
+      LLC
+      LLP
+      Ltd.
+      S.A.
+    },
+    
+    # joke: %w{ }
+  }
 end
