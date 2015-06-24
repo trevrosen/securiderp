@@ -43,6 +43,7 @@ class NameGenerator
       Threat
       Thunder
       Vaccine
+      Vector
       Vigil
       Wakizashi
     },
@@ -57,6 +58,7 @@ class NameGenerator
       Voltron
     }
   }
+
 
   ADJECTIVES = {
     serious: %w{
@@ -73,13 +75,16 @@ class NameGenerator
       Red
       Steel
       Vigilant
+      Visual
     },
 
     joke: %w{
       Capricious
       Gorey
       Mercurial
+      Rapacious
       Slammin
+      Voracious
     }
   }
 
@@ -103,22 +108,16 @@ class NameGenerator
       IV
     }
   }
-  
-  ENTITY_FORM = {
-    serious: %w{
-      AB
-      AG
-      Corp.
-      Co.
-      Foundation
-      GmbH
-      Inc.
-      LLC
-      LLP
-      Ltd.
-      S.A.
-    },
-    
-    # joke: %w{ }
-  }
+
+
+  def self.generate!
+    nouns_size = (NOUNS[:serious] + NOUNS[:joke]).size
+    adjectives_size = (ADJECTIVES[:serious] + ADJECTIVES[:joke]).size
+    noun1 = (NOUNS[:serious] + NOUNS[:joke])[rand(nouns_size)]
+    noun2 = (NOUNS[:serious] + NOUNS[:joke])[rand(nouns_size - 1)]
+    adj = (ADJECTIVES[:serious] + ADJECTIVES[:joke])[rand(adjectives_size)]
+    "#{adj} #{noun1} #{noun2}"
+  end
 end
+
+
