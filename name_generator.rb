@@ -3,6 +3,8 @@ class NameGenerator
     serious: %w{
       Armor
       Attack
+      Breach
+      Bushido
       Core
       Crypt
       Crypto
@@ -12,7 +14,9 @@ class NameGenerator
       Falcon
       Fortress
       Hawk
+      Katana
       Knife
+      Lance
       Mach
       Metal
       Network
@@ -21,13 +25,17 @@ class NameGenerator
       Penetration
       Perimeter
       Raptor
+      Samurai
       Security
+      Shuriken
       Strike
       Sword
       Talon
       Threat
       Thunder
+      Vaccine
       Vigil
+      Wakizashi
     },
 
     joke: %w{
@@ -40,11 +48,15 @@ class NameGenerator
   ADJECTIVES = {
     serious: %w{
       Active
+      Advanced
       Black
       Cobalt
       Cyber
       Cyborg
+      Elite
       Gray
+      Immune
+      Persistent
       Red
       Steel
       Vigilant
